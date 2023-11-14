@@ -1,6 +1,6 @@
 ```javascript
 var assert = require('assert')
-var compare = require('spdx-compare')
+var compare = require('@metamask/spdx-compare')
 
 assert(compare.gt('GPL-3.0', 'GPL-2.0'))
 assert(compare.gt('GPL-3.0-only', 'GPL-2.0-only'))

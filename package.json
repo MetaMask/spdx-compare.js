@@ -1,7 +1,7 @@
 {
-  "name": "spdx-compare",
+  "name": "@metamask/spdx-compare",
   "description": "compare SPDX license expressions",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
   "dependencies": {
     "spdx-expression-parse": "^3.0.0",
@@ -21,8 +21,11 @@
     "standards"
   ],
   "license": "MIT",
-  "repository": "kemitchell/spdx-compare.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/spdx-compare.js"
+  },
   "scripts": {
-    "test": "defence -i javascript README.md | sed 's!spdx-compare!./!' | node"
+    "test": "defence -i javascript README.md | sed 's!@metamask/spdx-compare!./!' | node"
   }
 }
